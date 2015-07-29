@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Krish Masand</string>
+	<key>Builder Version</key>
+	<string>10600.7.12</string>
+	<key>CFBundleDisplayName</key>
+	<string>Anticipation</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.krishmasand.anticipation</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup.html</string>
+				<key>Height</key>
+				<real>30</real>
+				<key>Identifier</key>
+				<string>pop1</string>
+				<key>Width</key>
+				<real>500</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>anticipation</string>
+				<key>Image</key>
+				<string>Icon-128.png</string>
+				<key>Label</key>
+				<string>Anticipation</string>
+				<key>Popover</key>
+				<string>pop1</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>content_script.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Hides Youtube Time</string>
+	<key>DeveloperIdentifier</key>
+	<string>4W8EPKC77H</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
