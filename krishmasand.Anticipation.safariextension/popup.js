@@ -23,7 +23,9 @@ function popoverHandler(){
 	if(safari.extension.settings.enabled == 'f'){
 		safari.extension.settings.enabled = 't';
 		setIconEnabled();
-    	text = "Anticipation is enabled, YouTube time will be hidden.";
+    	text = "Anticipation is enabled, YouTube time will be hidden on the next video you click on or after refreshing your tab.";
+		var text2 = "You can use your keyboard arrow keys to rewind and fast forward if needed."
+		$('#news').html(text2);
 	}
     else{
 		safari.extension.settings.enabled = 'f';

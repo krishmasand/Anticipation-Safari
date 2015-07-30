@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -24,7 +24,7 @@
 				<key>Filename</key>
 				<string>popup.html</string>
 				<key>Height</key>
-				<real>30</real>
+				<real>100</real>
 				<key>Identifier</key>
 				<string>pop1</string>
 				<key>Width</key>
