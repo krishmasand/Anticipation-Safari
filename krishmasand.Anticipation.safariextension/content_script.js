@@ -48,6 +48,15 @@ function hideTimes(){
 		 	par1.appendChild(repText);
 			i--;
 		}
+		times = document.getElementsByClassName("timestamp")
+		for(i = 0; i < times.length; i++){
+			var vidTime = times[i];
+			var par1 = vidTime.parentNode
+			par1.removeChild(vidTime);
+			var repText = document.createTextNode("Time hidden by Anticipation for YouTube");
+		 	par1.appendChild(repText);
+			i--;
+		}
 		times = document.getElementsByClassName("ytp-progress-bar-container")
 		for(i = 0; i < times.length; i++){
 			var vidTime = times[i];
