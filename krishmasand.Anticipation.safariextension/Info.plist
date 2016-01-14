@@ -7,13 +7,13 @@
 	<key>Builder Version</key>
 	<string>10600.7.12</string>
 	<key>CFBundleDisplayName</key>
-	<string>Anticipation for YouTube</string>
+	<string>Anticipation for YouTube and Twitch</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.krishmasand.anticipation</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.6.1</string>
+	<string>1.1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -56,7 +56,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Hides Youtube Time</string>
+	<string>Hides Youtube and Twitch Video lengths</string>
 	<key>DeveloperIdentifier</key>
 	<string>4W8EPKC77H</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -68,6 +68,7 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.youtube.com</string>
+				<string>*.twitch.tv</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>
@@ -75,5 +76,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>https://twitter.com/MassyTech</string>
 </dict>
 </plist>

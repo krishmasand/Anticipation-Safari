@@ -24,14 +24,14 @@ function popoverHandler(){
 	if(safari.extension.settings.enabled == 'f'){
 		safari.extension.settings.enabled = 't';
 		setIconEnabled();
-    	text = "Anticipation is enabled, YouTube time will be hidden on the next video you click on or after refreshing your tab.";
+    	text = "Anticipation is enabled, YouTube and Twitch time will be hidden on the next video you click on or after refreshing your tab.";
 		text2 = "You can use your keyboard arrow keys to rewind and fast forward if needed."
 		$('#news').html(text2);
 	}
     else{
 		safari.extension.settings.enabled = 'f';
 		setIconDisabled();
-		text = "Anticipation is disabled, YouTube time will be shown. Refresh your tab if you are already on YouTube.";
+		text = "Anticipation is disabled, YouTube and Twitch time will be shown. Refresh your tab if you are already on YouTube.";
 		text2 = ""
 		$('#news').html(text2);
     }
