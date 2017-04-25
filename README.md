@@ -1,3 +1,5 @@
+CURRENTLY DEPRECATED
+
 Anticipation for YouTube and Twitch
 =============
 
