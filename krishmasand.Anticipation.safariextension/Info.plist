@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.2.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
@@ -58,7 +58,7 @@
 	<key>Description</key>
 	<string>Hides Youtube and Twitch Video lengths</string>
 	<key>DeveloperIdentifier</key>
-	<string>4W8EPKC77H</string>
+	<string></string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -69,6 +69,7 @@
 			<array>
 				<string>*.youtube.com</string>
 				<string>*.twitch.tv</string>
+				<string>*.vods.co</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>
